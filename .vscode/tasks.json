@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Abrir site no navegador",
+			"type": "shell",
+			"command": "start",
+			"args": [
+				"c:\\Users\\felip\\Downloads\\INSIDERS\\sarah\\index.html"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
