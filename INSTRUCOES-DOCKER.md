@@ -1,6 +1,5 @@
-# Como hospedar o site com Docker
 
-Este documento contém instruções para hospedar o site de aniversário da Sarah usando Docker.
+Caso queira hospedar esse site no docker bastaseguir as orientações desse arquivo
 
 ## Requisitos
 
@@ -50,21 +49,4 @@ docker stop [CONTAINER_ID]
 
 ## Para hospedagem online
 
-Se você deseja hospedar este site online, você pode:
-
-1. Usar um serviço como Netlify, Vercel ou GitHub Pages para hospedar o site estaticamente
-2. Usar um serviço como DigitalOcean, Heroku ou AWS para hospedar o container Docker
-
-### Exemplo com Netlify
-
-1. Crie uma conta no Netlify
-2. Arraste e solte a pasta do projeto no Netlify
-3. O site estará disponível em poucos segundos
-
-### Exemplo com DigitalOcean
-
-1. Crie uma conta no DigitalOcean
-2. Crie um novo Droplet com Docker pré-instalado
-3. Faça upload dos arquivos para o Droplet
-4. Execute o comando `docker-compose up -d`
-5. Configure as regras de firewall para permitir tráfego na porta 80
+Se você deseja hospedar este site online, você pode utilizar diversos serviços, pessoalmente gosto muito do railway
